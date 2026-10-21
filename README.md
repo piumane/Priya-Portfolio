@@ -1,51 +1,105 @@
-# Priya Mane · Portfolio
+# Priya Mane | Personal Portfolio
 
-A static personal portfolio (plain HTML, CSS and JavaScript). No framework, no build step, no backend.
-Sections: Hero, About, Experience, Selected Work, Technical Skills, Certifications, Beyond Code, Contact.
+A personal portfolio website showcasing my background, technical skills, experience, projects, certifications, and journey as a software developer.
 
-## Files
+Built with **HTML, CSS, and JavaScript**, the portfolio features a responsive layout, custom visual design, interactive elements, and direct links to my resume and professional profiles.
 
-```
-priya-portfolio/
-├── index.html              Page structure, hero text, About and Experience text
-├── content.js              EDIT THIS: links, education, projects, skills, certifications, achievements
-├── style.css               Design. Colours are variables at the top (:root)
-├── script.js               Behaviour (menu, project accordions, animations). Rarely needs editing
-├── Priya_Mane_Resume.pdf   Your resume (replace to update)
-├── assets/portrait.png     Your 3D portrait
+## 🌐 Live Website
+
+**Portfolio:** https://piumane.github.io/Priya-Portfolio/
+
+## ✨ Features
+
+- **About Me** — An introduction to my background and interests.
+- **Experience** — Professional and internship experience.
+- **Projects** — Selected projects highlighting my development skills and practical experience.
+- **Technical Skills** — An overview of my programming languages, web technologies, databases, and tools.
+- **Education & Certifications** — Academic qualifications and professional learning.
+- **Beyond Code** — Personal interests and achievements.
+- **Contact** — Links to connect with me professionally.
+- **Responsive Design** — Layout designed for desktop, tablet, and mobile screens.
+- **Resume Download** — Access to my latest resume in PDF format.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Website structure and content |
+| CSS3 | Styling, layouts, animations, and responsiveness |
+| JavaScript | Interactive components and dynamic content |
+| Git & GitHub | Version control and source code hosting |
+| GitHub Pages | Static website hosting |
+
+## 📁 Project Structure
+
+```text
+Priya-Portfolio/
+├── index.html
+├── content.js
+├── style.css
+├── script.js
+├── Priya_Mane_Resume.pdf
+├── assets/
+│   └── portrait.png
 └── README.md
 ```
 
-Fonts (Anton and Manrope) load from Google Fonts, so the site needs an internet connection to show them. Without it, the browser uses fallback fonts.
+## 🚀 Run Locally
 
-## Update your resume
-Replace `Priya_Mane_Resume.pdf` with the new file, keeping the exact same name and location (next to `index.html`). Do not edit the HTML.
+No build tools, framework installation, or backend server are required.
 
-## Update content
-- **Projects, skills, certifications, education, achievements, email/LinkedIn/GitHub:** open `content.js`. Each block has comments. Copy a line to add an item; delete a line to remove one. Keep the quotes and commas.
-- **GitHub / Live Demo buttons on a project:** add `github:"https://..."` and/or `demo:"https://..."` inside that project. Use only real working URLs. Without them, no button appears.
-- **Hero text, About paragraphs, Experience:** open `index.html` and search for `EDIT HERE`.
-- **Colours:** change the variables in the first block of `style.css`.
+1. Clone the repository:
 
-## Upload to GitHub
-1. Create a new repository on github.com (for example `priya-portfolio`). Choose Public.
-2. Click "uploading an existing file", drag in everything from inside the `priya-portfolio` folder (files and the `assets` folder, not the folder itself), and click Commit changes.
-   Or with Git: `git init`, `git add .`, `git commit -m "Initial portfolio"`, then add your repository as `origin` and `git push -u origin main`.
+   ```bash
+   git clone https://github.com/piumane/Priya-Portfolio.git
+   ```
 
-## Turn on GitHub Pages
-1. Open the repository, then **Settings → Pages**.
-2. Under "Build and deployment", set Source to **Deploy from a branch**.
-3. Choose branch **main** and folder **/ (root)**, then Save.
-4. After a minute or two, GitHub shows your site address at the top of that page. Open it and check everything before sharing.
+2. Open the project folder:
 
-## Publish future updates
-Edit the file (on GitHub with the pencil icon, or locally), then commit. In the web uploader, upload the new file over the old one. The site refreshes in a minute or two.
+   ```bash
+   cd Priya-Portfolio
+   ```
 
-## Troubleshooting
-- **Image, CSS or script missing:** check the file names match exactly, including capital letters (`Priya_Mane_Resume.pdf`, `assets/portrait.png`), and that `assets` was uploaded as a folder.
-- **Old resume still downloads:** your browser or GitHub's cache is serving the old file. Wait a few minutes and hard refresh (Ctrl+Shift+R, or Cmd+Shift+R on Mac), or try a private window.
-- **Blank projects or skills:** a comma or quote is probably missing in `content.js`. Open the browser console (F12) to see the line.
-- **404 on the site address:** confirm Pages is enabled and `index.html` is in the repository root, not inside a subfolder.
+3. Open `index.html` in your browser.
 
-## Privacy
-Your resume contains your phone number, and the PDF is public once published. If you don't want that, remove the number from the PDF before uploading. The web page itself does not show it.
+For a better local development experience, you can also open the folder in Visual Studio Code and use the Live Server extension.
+
+## ✏️ Customization
+
+The project uses separate files to make future updates straightforward.
+
+- **`content.js`** — Update project details, skills, education, certifications, achievements, and profile links.
+- **`index.html`** — Edit the page structure, introduction, About section, and experience content.
+- **`style.css`** — Customize colours, typography, spacing, layouts, and animations.
+- **`script.js`** — Modify interactive features and website behaviour.
+- **`Priya_Mane_Resume.pdf`** — Replace the PDF with an updated resume, keeping the same filename.
+- **`assets/portrait.png`** — Replace the portrait while preserving the filename and path, unless you also update its reference in the code.
+
+Google Fonts are used for typography, so an internet connection may be needed to load the preferred fonts.
+
+## 🌍 Deployment
+
+This portfolio is hosted using GitHub Pages.
+
+To publish your own changes:
+
+1. Push or upload the updated files to the repository's `main` branch.
+2. Open **Settings → Pages** in the GitHub repository.
+3. Ensure the source is set to deploy from the `main` branch and the root folder (`/`).
+4. Wait for GitHub Pages to finish deploying.
+5. Visit the live website to verify your changes.
+
+Updates may take a short time to appear after deployment.
+
+## 🔒 Privacy
+
+This is a public portfolio. Any information or documents included in the repository or published website may be accessible to visitors. Review your resume and contact information before publishing.
+
+## 📬 Connect With Me
+
+- **GitHub:** [github.com/piumane](https://github.com/piumane)
+- **LinkedIn:** [linkedin.com/in/priya-mane-8922a5373](https://linkedin.com/in/priya-mane-8922a5373)
+
+---
+
+*Designed and developed to present my projects, skills, and professional journey in one place.*
